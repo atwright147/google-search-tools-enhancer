@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Google Search Tools Time Crx",
+    "description": "Improve Google Search Tools better",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.com/search*",
+                "*://*.google.co.uk/search*"
+            ],
+            "js": [
+                "node_modules/jquery/dist/jquery.slim.min.js",
+                "scripts/search-time.js"
+            ]
+        }
+    ]
+}
