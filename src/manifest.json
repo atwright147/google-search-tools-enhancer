@@ -10,7 +10,7 @@
                 "*://*.google.co.uk/search*"
             ],
             "js": [
-                "scripts/search-time.js"
+                "scripts/content-script.js"
             ]
         }
     ]
