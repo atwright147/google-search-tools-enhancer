@@ -8,7 +8,6 @@ const timeMenuMonthItem6 = timeMenuMonthItemOuterHtml.replace('id="qdr_m"', 'id=
 timeMenuMonthItem.after(document.createRange().createContextualFragment(timeMenuMonthItem6));
 timeMenuMonthItem.after(document.createRange().createContextualFragment(timeMenuMonthItem3));
 
-console.log(timeMenuMonthItem.outerHTML);
 
 
 
