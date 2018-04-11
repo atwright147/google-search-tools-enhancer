@@ -11,7 +11,7 @@ export default {
         'content-script': './src/scripts/search-time.js',
     },
     output: {
-        path: path.resolve(distFolder),
+        path: path.join(__dirname, distFolder, 'scripts'),
         filename: '[name].js'
     },
     module: {
@@ -31,7 +31,7 @@ export default {
         new CopyWebpackPlugin([
             {
                 from: path.join('src', 'manifest.json'),
-                to: distFolder
+                to: path.join(__dirname, distFolder)
             }
         ])
     ]
