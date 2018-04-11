@@ -11,7 +11,8 @@
             ],
             "js": [
                 "scripts/content-script.js"
-            ]
+            ],
+            "run_at": "document_end"
         }
     ]
 }
