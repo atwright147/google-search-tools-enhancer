@@ -27,7 +27,7 @@ export default {
         ]
     },
     plugins: [
-        new ChromeExtensionReloader(),
+        // new ChromeExtensionReloader(),
         new CopyWebpackPlugin([
             {
                 from: path.join('src', 'manifest.json'),
