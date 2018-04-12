@@ -1,7 +1,7 @@
 /* global __dirname */
 
 import path from 'path';
-import ChromeExtensionReloader from 'webpack-chrome-extension-reloader';
+// import ChromeExtensionReloader from 'webpack-chrome-extension-reloader';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const distFolder = 'dist';
