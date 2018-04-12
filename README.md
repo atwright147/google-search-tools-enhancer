@@ -1,6 +1,6 @@
 # Google Search Tools Enhancer Chrome Extension
 
-This is a reference app for best practices regarding React, Redux, Webpack and their associated tools.
+This extension is currently very simple. It simply adds two new items to the search tools menu in Google Search results, "Last 3 months" and "Last 6 months".
 
 ## Dev build for Chrome
 
