@@ -24,4 +24,8 @@ The following command will create a full build into the `dist` folder.
 npm run build
 ```
 
+## Todo
+
+- Explore using [Mutation Summary](https://github.com/rafaelw/mutation-summary) to detect when page has finished rendering rather than use a `setTimeout()`
+
 Created by Andy Wright
