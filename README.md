@@ -2,25 +2,19 @@
 
 This is a reference app for best practices regarding React, Redux, Webpack and their associated tools.
 
-## Installation
+## Dev build for Chrome
 
-Clone this repo and run:
+Point Chrome at the `build` folder
 
 ```sh
 npm install
-```
-
-## Try it out
-
-```sh
-npm run dev:stubs
+npm run dev
 ```
 
 ## Production build
 
-The following command will create a full build into the `dist` folder.
-
 ```sh
+npm install
 npm run build
 ```
 
