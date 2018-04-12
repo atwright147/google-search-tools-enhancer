@@ -1,4 +1,4 @@
-# React Template
+# Google Search Tools Enhancer Chrome Extension
 
 This is a reference app for best practices regarding React, Redux, Webpack and their associated tools.
 

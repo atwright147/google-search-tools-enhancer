@@ -1,5 +1,5 @@
 {
-  "name": "google-search-tools-time-crx",
+  "name": "google-search-tools-enhancer",
   "version": "1.0.0",
   "description": "This is a reference app for best practices regarding React, Redux, Webpack and their associated tools.",
   "main": "src/index.js",
