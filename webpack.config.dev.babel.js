@@ -4,14 +4,14 @@ import path from 'path';
 // import ChromeExtensionReloader from 'webpack-chrome-extension-reloader';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
-const distFolder = 'dist-dev';
+const buildFolder = 'build';
 
 export default {
     entry: {
         'content-script': './src/scripts/search-time.js',
     },
     output: {
-        path: path.join(__dirname, distFolder, 'scripts'),
+        path: path.join(__dirname, buildFolder, 'scripts'),
         filename: '[name].js'
     },
     module: {
@@ -31,11 +31,11 @@ export default {
         new CopyWebpackPlugin([
             {
                 from: path.join('src', 'manifest.json'),
-                to: path.join(__dirname, distFolder)
+                to: path.join(__dirname, buildFolder)
             },
             {
                 from: path.join('src', 'icons'),
-                to: path.join(__dirname, distFolder, 'icons')
+                to: path.join(__dirname, buildFolder, 'icons')
             }
         ])
     ]
