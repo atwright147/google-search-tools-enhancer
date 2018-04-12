@@ -32,6 +32,10 @@ export default {
             {
                 from: path.join('src', 'manifest.json'),
                 to: path.join(__dirname, distFolder)
+            },
+            {
+                from: path.join('src', 'icons'),
+                to: path.join(__dirname, distFolder, 'icons')
             }
         ])
     ]
