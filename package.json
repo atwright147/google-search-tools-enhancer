@@ -4,7 +4,8 @@
   "description": "This is a reference app for best practices regarding React, Redux, Webpack and their associated tools.",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack -p --config webpack.config.babel.js",
+    "dev": "webpack --config webpack.config.dev.babel.js",
+    "build": "webpack -p --config webpack.config.prod.babel.js",
     "prebuild": "rimraf -g ./dist/**",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
